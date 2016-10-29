@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap-010-Sidebar.html" />
+    <Content Include="Bootstrap-009-Wells-and-alertBox.html" />
     <Content Include="Bootstrap-008-NavbarToggleButton.html" />
     <Content Include="Bootstrap-007-DropdownMenu.html" />
     <Content Include="Bootstrap-006-navbar.html" />
@@ -130,6 +132,7 @@
     <Content Include="bower_components\bootstrap\js\tooltip.js" />
     <Content Include="bower_components\bootstrap\js\transition.js" />
     <Content Include="bower_components\bootstrap\package.js" />
+    <Content Include="css\site.css" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\3.jpg" />
