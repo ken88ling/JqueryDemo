@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+              $('[title="div1Title"]').css('border', '5px solid red');
+        });
+    </script>
+</head>
+<body>
+    -Attribute Equals Selector [name="value"]<br/>
+    -Attribute Not Equal Selector [name!="value"]<br />
+    -Attribute Contains Selector [name*="value"]<br />
+    -Attribute Contains Word Selector [name~="value"]<br />
+    -Attribute Contains Prefix Selector [name|="value"]<br />
+    -Attribute Starts With Selector [name^="value"]<br />
+    -Attribute Ends With Selector [name$="value"]<br/>
+
+    <div title="div1Title">
+        DIV 1
+    </div>
+    <br />
+    <div title="div2Title">
+        DIV 2
+    </div>
+    <p title="myTitle-paragraph">
+        This is a paragraph
+    </p>
+    <p title="myTitleHeading">
+        This is a paragraph
+    </p>
+    <span title="div1Title">
+        SAPN 1
+    </span>
+    <br /><br />
+    <span title="mySpan Heading">
+        SPAN 2
+    </span>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('div[title][style]').css('border', '5px solid black');
+        });
+    </script>
+</head>
+<body>
+    <div title="divTitle" style="background-color:red">
+        Red DIV
+    </div>
+    <br />
+    <div title="divTitle" style="background-color:green">
+        Green DIV
+    </div>
+    <br />
+    <div title="divTitle">
+        Normal Div
+    </div>
+    <br />
+    <div>
+        Normal Div without any attributes
+    </div>
+</body>
+</html>

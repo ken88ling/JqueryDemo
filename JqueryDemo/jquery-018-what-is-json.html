@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document)
+            .ready(function () {
+
+                // Creating a JSON object
+                var employeeJson = {
+                    "Todd": {
+                        "firstName": "Todd",
+                        "lastName": "Grover",
+                        "gender": "Male",
+                        "salary": 50000
+                    },
+                    "Ken":
+                    {
+                        "firstName": "Ken",
+                        "lastName": "Ling",
+                        "gender": "Male",
+                        "salary": 80000
+                    }
+                };
+
+                // Accessing data from a JSON object
+                //var result = '';
+                //result += 'First Name = ' + employeeJson.firstName + '<br/>';
+                //result += 'Last Name = ' + employeeJson.lastName + '<br/>';
+                //result += 'Gender = ' + employeeJson.gender + '<br/>';
+                //result += 'Salary = ' + employeeJson.salary + '<br/>';
+
+                $('#resultDiv').html(employeeJson.Ken.salary);
+            });
+    </script>
+</head>
+<body style="font-family:Arial">
+    <div id="resultDiv"></div>
+</body>
+</html>
