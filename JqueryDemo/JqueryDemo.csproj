@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap-014-modal.html" />
+    <Content Include="Bootstrap-013-Push-pull.html" />
     <Content Include="Bootstrap-010-Sidebar.html" />
     <Content Include="Bootstrap-009-Wells-and-alertBox.html" />
     <Content Include="Bootstrap-008-NavbarToggleButton.html" />
