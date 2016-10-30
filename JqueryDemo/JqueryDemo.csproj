@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap-015-Nav-component.html" />
     <Content Include="Bootstrap-014-modal.html" />
     <Content Include="Bootstrap-013-Push-pull.html" />
     <Content Include="Bootstrap-010-Sidebar.html" />
@@ -134,7 +135,7 @@
     <Content Include="bower_components\bootstrap\js\tooltip.js" />
     <Content Include="bower_components\bootstrap\js\transition.js" />
     <Content Include="bower_components\bootstrap\package.js" />
-    <Content Include="css\site.css" />
+    <Content Include="css\Bootstrap-010-Sidebar.css" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\3.jpg" />
